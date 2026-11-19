@@ -1,0 +1,46 @@
+/* [project]/src/components/ui/Breadcrumb.module.css [app-client] (css) */
+.Breadcrumb-module__3e-AXW__nav {
+  padding: 18px 0;
+  font-size: 12px;
+}
+
+.Breadcrumb-module__3e-AXW__list {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Breadcrumb-module__3e-AXW__item {
+  align-items: center;
+  gap: 6px;
+  display: inline-flex;
+}
+
+.Breadcrumb-module__3e-AXW__home {
+  color: var(--heading);
+  text-underline-offset: 4px;
+  text-decoration: underline;
+}
+
+.Breadcrumb-module__3e-AXW__link {
+  color: var(--text);
+}
+
+.Breadcrumb-module__3e-AXW__link:hover, .Breadcrumb-module__3e-AXW__home:hover {
+  color: var(--secondary-ink);
+}
+
+.Breadcrumb-module__3e-AXW__current {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+.Breadcrumb-module__3e-AXW__sep {
+  color: var(--muted);
+}
+
+/*# sourceMappingURL=src_components_ui_Breadcrumb_module_css_1igg3k2-ikub5._.single.css.map*/

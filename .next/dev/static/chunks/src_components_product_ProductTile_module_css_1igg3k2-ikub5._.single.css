@@ -1,0 +1,64 @@
+/* [project]/src/components/product/ProductTile.module.css [app-client] (css) */
+.ProductTile-module__ThAXJq__tile {
+  background: var(--tile);
+  color: var(--ink);
+  place-items: center;
+  display: grid;
+  position: relative;
+}
+
+.ProductTile-module__ThAXJq__card {
+  aspect-ratio: 1;
+}
+
+.ProductTile-module__ThAXJq__large {
+  aspect-ratio: 1;
+  border-radius: var(--radius-card);
+}
+
+.ProductTile-module__ThAXJq__thumb {
+  border-radius: 14px;
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+}
+
+.ProductTile-module__ThAXJq__art {
+  transition: transform .4s var(--ease-out);
+}
+
+.ProductTile-module__ThAXJq__out .ProductTile-module__ThAXJq__art {
+  opacity: .45;
+}
+
+.ProductTile-module__ThAXJq__out {
+  filter: saturate(.6);
+}
+
+.ProductTile-module__ThAXJq__outPill {
+  border-radius: var(--radius-chip);
+  background: var(--surface);
+  color: var(--heading);
+  box-shadow: var(--shadow-sm);
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 700;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ProductTile-module__ThAXJq__sample {
+  background: var(--surface);
+  color: var(--muted);
+  border-radius: 6px;
+  padding: 1px 8px;
+  font-size: 10px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+/*# sourceMappingURL=src_components_product_ProductTile_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,31 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/0zd5qjib7pb49.js"
+4:"/_next/static/chunks/1lt4dewzk020i.js"
+5:I[39756,["$3","$4"],"default"]
+6:I[37457,["$3","$4"],"default"]
+b:"/_next/static/chunks/184xffkqu_8pe.js"
+c:I[22016,["$3","$4","$b"],""]
+d:I[5014,["$3","$4","$b"],"default"]
+e:I[14050,["$3","$4","$b"],"ListingView"]
+f:I[97367,["$3","$4"],"OutletBoundary"]
+10:"$Sreact.suspense"
+13:"ViewportBoundary"
+14:I[97367,["$3","$4"],"$13"]
+15:"MetadataBoundary"
+16:I[97367,["$3","$4"],"$15"]
+17:I[27201,["$3","$4"],"IconMark"]
+:HL["/_next/static/chunks/17fg_7t07lgn4.css","style"]
+8:X
+8:C
+9:X
+a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"container","children":[["$","nav",null,{"aria-label":"مسیر صفحه","className":"_3e-AXW_nav","children":["$","ol",null,{"className":"_3e-AXW_list","children":[["$","li","خانه",{"className":"_3e-AXW_item","children":[["$","$Lc",null,{"href":"/","className":"_3e-AXW_home","children":"خانه"}],["$","span",null,{"className":"_3e-AXW_sep","aria-hidden":true,"children":"/"}]]}],["$","li","فروشگاه",{"className":"_3e-AXW_item","children":[["$","span",null,{"aria-current":"page","className":"_3e-AXW_current","children":"فروشگاه"}],false]}]]}]}],["$","section",null,{"className":"N2vYpG_hero","aria-labelledby":"listing-title","children":[["$","div",null,{"className":"N2vYpG_copy","children":[["$","p",null,{"className":"N2vYpG_eyebrow","children":"ALL PRODUCTS"}],["$","h1",null,{"id":"listing-title","className":"N2vYpG_title","children":"همه محصولات"}],["$","p",null,{"className":"N2vYpG_text","children":"لوازم برقی آشپزخانه، ظروف و سفال‌های منتخب و لوازم نظافت خانه؛ همه در یک‌جا."}],["$","ul",null,{"className":"U6xzpa_chips","children":[["$","li","ارسال روز بعد*",{"className":"U6xzpa_chip","children":[["$","$Ld",null,{"icon":{"name":"truck","size":24,"node":[["path",{"d":"M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2","key":"wrbu53"}],["path",{"d":"M15 18H9","key":"1lyqi6"}],["path",{"d":"M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14","key":"lysw3i"}],["circle",{"cx":"17","cy":"18","r":"2","key":"332jqn"}],["circle",{"cx":"7","cy":"18","r":"2","key":"19iecd"}]]},"size":15,"strokeWidth":1.9,"aria-hidden":true}],"ارسال روز بعد*"]}],["$","li","ضمانت اصالت",{"className":"U6xzpa_chip","children":[["$","$Ld",null,{"icon":{"name":"shield-check","size":24,"node":[["path",{"d":"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z","key":"oel41y"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]]},"size":15,"strokeWidth":1.9,"aria-hidden":true}],"ضمانت اصالت"]}],["$","li","ضمانت بازگشت",{"className":"U6xzpa_chip","children":[["$","$Ld",null,{"icon":{"name":"rotate-ccw","size":24,"node":[["path",{"d":"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8","key":"1357e3"}],["path",{"d":"M3 3v5h5","key":"1xhq8a"}]]},"size":15,"strokeWidth":1.9,"aria-hidden":true}],"ضمانت بازگشت"]}]]}]]}],["$","div",null,{"className":"N2vYpG_circle tone-navy","aria-hidden":true,"children":["$","svg",null,{"viewBox":"0 0 64 64","width":"42%","height":"42%","fill":"none","stroke":"currentColor","strokeWidth":2.4,"strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":true,"children":[["$","path","M14 28h36v12a12 12 0 0 1-12 12H26a12 12 0 0 1-12-12z",{"d":"M14 28h36v12a12 12 0 0 1-12 12H26a12 12 0 0 1-12-12z"}],["$","path","M10 28h44",{"d":"M10 28h44"}],["$","path","M20 23h24",{"d":"M20 23h24"}],["$","path","M32 18v5",{"d":"M32 18v5"}],["$","path","M28 18h8",{"d":"M28 18h8"}],["$","path","M8 32h6",{"d":"M8 32h6"}],["$","path","M50 32h6",{"d":"M50 32h6"}]]}]}]]}]]}],"$undefined",["$","div",null,{"className":"container","children":["$","$Le",null,{"slug":""}]}],[["$","section","cta-0",{"className":"container section","aria-label":"هدیه‌ای برای خانه","children":["$","div",null,{"className":"KjUMNq_banner KjUMNq_slim","children":[["$","div",null,{"children":[["$","h2",null,{"className":"KjUMNq_slimTitle","children":"هدیه‌ای برای خانه"}],["$","p",null,{"className":"KjUMNq_slimText","children":"بسته‌بندی ویژه هدیه، کارت تبریک و ارسال مستقیم برای گیرنده."}]]}],["$","$Lc",null,{"href":"/shop/gifts","className":"_8RiFmG_btn _8RiFmG_on-dark","children":["$undefined",["$","span",null,{"children":"انتخاب هدیه"}]]}]]}]}]]],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/17fg_7t07lgn4.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/184xffkqu_8pe.js","async":true}]],["$","$Lf",null,{"children":["$","$10",null,{"name":"Next.MetadataOutlet","children":"$@11"}]}]]}],"p":"$@12","v":null,"s":"$9"}}]]
+1:[["children",{"s":"shop","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L14",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#101b2b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L16",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$10",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"همه محصولات | WASTON"}],["$","meta","1",{"name":"description","content":"لوازم برقی آشپزخانه، ظروف و سفال‌های منتخب و لوازم نظافت خانه؛ همه در یک‌جا."}],["$","link","2",{"rel":"icon","href":"/favicon.svg"}],["$","$L17","3",{}]]}]}],null]}],null]}],"p":"$@18","v":null,"s":"$9"}},"a":"$@19","u":"$@1a","b":"Nw_UvgXoJDJGYDPYchdPT"}
+11:null
+1a:true
+9:300
+9:C
+19:0
+7:"$undefined"
+18:"$undefined"
+12:"$undefined"

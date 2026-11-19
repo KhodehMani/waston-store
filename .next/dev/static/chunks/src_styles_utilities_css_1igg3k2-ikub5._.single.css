@@ -1,0 +1,112 @@
+/* [project]/src/styles/utilities.css [app-client] (css) */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  padding-inline: var(--gutter);
+  margin-inline: auto;
+}
+
+.section {
+  margin-top: 72px;
+}
+
+.section--tight {
+  margin-top: 48px;
+}
+
+.visually-hidden {
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  position: absolute !important;
+}
+
+.ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--tint-navy) 25%, var(--surface-2) 50%, var(--tint-navy) 75%);
+  border-radius: var(--radius-control);
+  background-size: 200% 100%;
+  animation: 1.4s ease-in-out infinite skeleton;
+}
+
+@keyframes skeleton {
+  from {
+    background-position: 200% 0;
+  }
+
+  to {
+    background-position: -200% 0;
+  }
+}
+
+.tone-teal {
+  --tile: var(--tint-teal);
+  --ink: var(--ink-teal);
+}
+
+.tone-coral {
+  --tile: var(--tint-coral);
+  --ink: var(--ink-coral);
+}
+
+.tone-navy {
+  --tile: var(--tint-navy);
+  --ink: var(--ink-navy);
+}
+
+@media (max-width: 640px) {
+  .scroll-rail {
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+    scrollbar-width: none;
+    grid-auto-columns: minmax(220px, 72%);
+    grid-auto-flow: column;
+    padding-bottom: 6px;
+    overflow-x: auto;
+    grid-template-columns: none !important;
+    display: grid !important;
+  }
+
+  .scroll-rail::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scroll-rail > * {
+    scroll-snap-align: start;
+  }
+}
+
+a.visually-hidden:focus {
+  z-index: 100;
+  clip: auto;
+  background: var(--primary);
+  width: auto;
+  height: auto;
+  color: var(--on-primary);
+  white-space: normal;
+  border-radius: 10px;
+  margin: 0;
+  padding: 10px 16px;
+  top: 8px;
+  right: 8px;
+  position: fixed !important;
+}
+
+/*# sourceMappingURL=src_styles_utilities_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,119 @@
+/* [project]/src/components/layout/Footer.module.css [app-client] (css) */
+.Footer-module__3hUVsW__footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  margin-top: 80px;
+  font-size: 13px;
+}
+
+.Footer-module__3hUVsW__grid {
+  grid-template-columns: 1.15fr 1fr 1fr 1.25fr;
+  gap: 32px;
+  padding-block: 48px 36px;
+  display: grid;
+}
+
+.Footer-module__3hUVsW__word {
+  text-align: right;
+  letter-spacing: .16em;
+  color: var(--footer-heading);
+  direction: ltr;
+  margin-bottom: 14px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.Footer-module__3hUVsW__desc {
+  max-width: 260px;
+  line-height: 1.9;
+}
+
+.Footer-module__3hUVsW__badges {
+  gap: 8px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.Footer-module__3hUVsW__trust {
+  text-align: center;
+  border: 1px dashed #ffffff4d;
+  border-radius: 12px;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  padding: 6px;
+  font-size: 10px;
+  line-height: 1.6;
+  display: grid;
+}
+
+[data-theme="dark"] .Footer-module__3hUVsW__trust {
+  border-color: var(--border);
+}
+
+.Footer-module__3hUVsW__heading {
+  color: var(--footer-heading);
+  margin-bottom: 14px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.Footer-module__3hUVsW__links {
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.Footer-module__3hUVsW__links li {
+  align-items: center;
+  min-height: 28px;
+  display: flex;
+}
+
+.Footer-module__3hUVsW__links a {
+  align-items: center;
+  min-height: 28px;
+  transition: color .15s;
+  display: inline-flex;
+}
+
+.Footer-module__3hUVsW__links a:hover {
+  color: var(--footer-heading);
+}
+
+.Footer-module__3hUVsW__bottom {
+  border-top: 1px solid #ffffff1f;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  padding-block: 18px;
+  font-size: 12px;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .Footer-module__3hUVsW__grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .Footer-module__3hUVsW__brand {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 767px) {
+  .Footer-module__3hUVsW__footer {
+    padding-bottom: 64px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Footer-module__3hUVsW__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+
+/*# sourceMappingURL=src_components_layout_Footer_module_css_1igg3k2-ikub5._.single.css.map*/

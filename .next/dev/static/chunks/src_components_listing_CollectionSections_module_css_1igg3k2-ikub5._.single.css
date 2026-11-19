@@ -1,0 +1,127 @@
+/* [project]/src/components/listing/CollectionSections.module.css [app-client] (css) */
+.CollectionSections-module__zKaQqW__features {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 28px 32px;
+}
+
+.CollectionSections-module__zKaQqW__featuresTitle {
+  margin-bottom: 20px;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.CollectionSections-module__zKaQqW__featureList {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.CollectionSections-module__zKaQqW__feature {
+  align-items: flex-start;
+  gap: 12px;
+  display: flex;
+}
+
+.CollectionSections-module__zKaQqW__feature strong {
+  color: var(--heading);
+  margin-bottom: 2px;
+  font-size: 15px;
+  display: block;
+}
+
+.CollectionSections-module__zKaQqW__feature small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+  display: block;
+}
+
+.CollectionSections-module__zKaQqW__featureIcon {
+  background: var(--tint-teal);
+  width: 40px;
+  height: 40px;
+  color: var(--secondary-ink);
+  border-radius: 12px;
+  flex-shrink: 0;
+  place-items: center;
+  display: grid;
+}
+
+.CollectionSections-module__zKaQqW__faq {
+  grid-template-columns: 300px minmax(0, 620px);
+  justify-content: space-between;
+  gap: 32px;
+  display: grid;
+}
+
+.CollectionSections-module__zKaQqW__faqHead {
+  align-content: start;
+  justify-items: start;
+  gap: 6px;
+  display: grid;
+}
+
+.CollectionSections-module__zKaQqW__faqTitle {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.CollectionSections-module__zKaQqW__faqSub {
+  color: var(--muted);
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+
+.CollectionSections-module__zKaQqW__reviews {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.CollectionSections-module__zKaQqW__review {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  gap: 8px;
+  padding: 18px;
+  font-size: 14px;
+  display: grid;
+}
+
+.CollectionSections-module__zKaQqW__review small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.CollectionSections-module__zKaQqW__stars {
+  color: var(--muted);
+  gap: 3px;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .CollectionSections-module__zKaQqW__featureList, .CollectionSections-module__zKaQqW__reviews, .CollectionSections-module__zKaQqW__faq {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .CollectionSections-module__zKaQqW__features {
+    padding: 22px 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .CollectionSections-module__zKaQqW__faqTitle {
+    font-size: 21px;
+  }
+}
+
+/*# sourceMappingURL=src_components_listing_CollectionSections_module_css_1igg3k2-ikub5._.single.css.map*/

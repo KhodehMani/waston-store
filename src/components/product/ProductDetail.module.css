@@ -1,0 +1,108 @@
+.grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 40px;
+  align-items: start;
+}
+.gallery {
+  position: sticky;
+  top: 140px;
+}
+.badges {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  display: grid;
+  justify-items: end;
+  gap: 6px;
+}
+.badges span {
+  padding: 3px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+.discount {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+.new {
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+.plain {
+  background: var(--surface);
+  color: var(--heading);
+  box-shadow: var(--shadow-sm);
+}
+.info {
+  display: grid;
+  gap: 16px;
+}
+.brand {
+  font-size: 13px;
+  color: var(--muted);
+}
+.title {
+  font-size: 32px;
+  font-weight: 800;
+}
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.sep {
+  width: 1px;
+  height: 14px;
+  background: var(--border-strong);
+}
+.summary {
+  font-size: 15px;
+  line-height: 1.9;
+}
+.highlights {
+  display: grid;
+  gap: 6px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.highlights li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.highlights svg {
+  color: var(--secondary);
+  flex-shrink: 0;
+}
+.buyBox {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.gift {
+  margin-top: 4px;
+}
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+  .gallery {
+    position: relative;
+    top: 0;
+    max-width: 520px;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .title {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/shop/layout,_N_T_/shop/[slug]/layout,_N_T_/shop/[slug]/page,_N_T_/shop/kitchen-appliances"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/shop/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/5f06ea2d73a4e4bb9a83b4482b267ab63d9dda6d58d28da1a4cef64a68a9006b/$/shop/kitchen-appliances",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/shop/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "waston-store",
+  "version": "1.0.0",
+  "private": true,
+  "description": "WASTON — RTL Persian e-commerce frontend (Next.js + React + Vue islands) built from the WASTON mockup.",
+  "scripts": {
+    "vue:build": "vite build --config vue-modules/vite.config.mts --logLevel warn",
+    "vue:watch": "vite build --watch --config vue-modules/vite.config.mts --logLevel warn",
+    "postinstall": "npm run vue:build",
+    "predev": "npm run vue:build",
+    "dev": "concurrently -k -n vue,next -c green,cyan \"npm:vue:watch\" \"next dev\"",
+    "prebuild": "npm run vue:build",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "npm run vue:build && tsc --noEmit && vue-tsc --noEmit -p vue-modules/tsconfig.json",
+    "dev:vinext": "vite dev --port 3001",
+    "build:vinext": "vite build",
+    "start:vinext": "vite preview",
+    "deploy:vinext": "vinext-cloudflare deploy"
+  },
+  "dependencies": {
+    "@fontsource-variable/vazirmatn": "^5.3.0",
+    "@vinext/cloudflare": "^1.4.0",
+    "lucide-react": "^1.76.0",
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-server-dom-webpack": "^19.3.1",
+    "vinext": "^1.4.6",
+    "vue": "^3.5.45"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^2.0.0-rc.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "@vitejs/plugin-rsc": "^0.5.39",
+    "@vitejs/plugin-vue": "^6.0.11",
+    "cf": "^1.0.0-rc.2",
+    "concurrently": "^9.2.5",
+    "postcss": "^8.5.33",
+    "typescript": "^5.9.3",
+    "vite": "^8.3.0",
+    "vite-css-modules": "^1.16.1",
+    "vue-tsc": "^3.3.14"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "type": "module"
+}

@@ -1,0 +1,261 @@
+/* [project]/src/components/layout/Header.module.css [app-client] (css) */
+.Header-module__lnUIdW__header {
+  z-index: 40;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+  transition: background-color .25s;
+  position: sticky;
+  top: 0;
+}
+
+.Header-module__lnUIdW__top {
+  align-items: center;
+  gap: 24px;
+  height: 72px;
+  display: flex;
+}
+
+.Header-module__lnUIdW__searchDesktop {
+  flex: 1;
+  max-width: 470px;
+  margin-inline: auto;
+}
+
+.Header-module__lnUIdW__searchFallback {
+  border-radius: var(--radius-control);
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  height: 44px;
+}
+
+.Header-module__lnUIdW__searchMobile {
+  display: none;
+}
+
+.Header-module__lnUIdW__actions {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.Header-module__lnUIdW__desktopOnly {
+  display: contents;
+}
+
+.Header-module__lnUIdW__iconBtn {
+  width: var(--touch);
+  height: var(--touch);
+  border-radius: var(--radius-control);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--heading);
+  place-items: center;
+  transition: border-color .18s, background-color .18s;
+  display: grid;
+  position: relative;
+}
+
+.Header-module__lnUIdW__iconBtn:hover {
+  border-color: var(--heading);
+}
+
+.Header-module__lnUIdW__menuBtn, .Header-module__lnUIdW__sun {
+  display: none;
+}
+
+[data-theme="dark"] .Header-module__lnUIdW__sun {
+  display: block;
+}
+
+[data-theme="dark"] .Header-module__lnUIdW__moon {
+  display: none;
+}
+
+.Header-module__lnUIdW__dot {
+  background: var(--accent);
+  min-width: 20px;
+  height: 20px;
+  color: var(--on-accent);
+  text-align: center;
+  border-radius: 999px;
+  padding: 0 5px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 20px;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+}
+
+.Header-module__lnUIdW__cartBtn {
+  height: var(--touch);
+  border-radius: var(--radius-control);
+  background: var(--primary);
+  color: var(--on-primary);
+  align-items: center;
+  gap: 8px;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 700;
+  transition: opacity .18s;
+  display: inline-flex;
+  position: relative;
+}
+
+.Header-module__lnUIdW__cartBtn:hover {
+  opacity: .9;
+}
+
+.Header-module__lnUIdW__cartCount {
+  background: var(--secondary);
+  min-width: 22px;
+  height: 22px;
+  color: var(--on-secondary);
+  text-align: center;
+  border-radius: 999px;
+  padding: 0 6px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.Header-module__lnUIdW__nav {
+  border-top: 1px solid var(--border);
+}
+
+.Header-module__lnUIdW__navList {
+  scrollbar-width: none;
+  gap: 28px;
+  margin-block: 0;
+  list-style: none;
+  display: flex;
+  overflow-x: auto;
+}
+
+.Header-module__lnUIdW__navList::-webkit-scrollbar {
+  display: none;
+}
+
+.Header-module__lnUIdW__navLink {
+  height: 46px;
+  color: var(--heading);
+  white-space: nowrap;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  position: relative;
+}
+
+.Header-module__lnUIdW__navLink:after {
+  content: "";
+  inset-inline: 0;
+  background: var(--secondary);
+  height: 2px;
+  transition: transform .25s var(--ease-out);
+  border-radius: 2px;
+  position: absolute;
+  bottom: -1px;
+  transform: scaleX(0);
+}
+
+.Header-module__lnUIdW__navLink:hover:after {
+  transform: scaleX(.5);
+}
+
+.Header-module__lnUIdW__navActive {
+  font-weight: 800;
+}
+
+.Header-module__lnUIdW__navActive:after, .Header-module__lnUIdW__navActive:hover:after {
+  transform: scaleX(1);
+}
+
+.Header-module__lnUIdW__authForm {
+  gap: 10px;
+  display: grid;
+}
+
+.Header-module__lnUIdW__authLead {
+  color: var(--muted);
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.Header-module__lnUIdW__authLabel {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.Header-module__lnUIdW__authInput {
+  height: var(--touch);
+  border-radius: var(--radius-control);
+  border: 1px solid var(--border);
+  background: var(--input-bg);
+  text-align: left;
+  padding: 0 14px;
+  font-size: 15px;
+}
+
+.Header-module__lnUIdW__authInput[aria-invalid="true"] {
+  border-color: var(--accent);
+}
+
+.Header-module__lnUIdW__authError {
+  color: var(--accent-ink);
+  font-size: 12px;
+}
+
+.Header-module__lnUIdW__authNote {
+  background: var(--tint-teal);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 13px;
+}
+
+@media (max-width: 1023px) {
+  .Header-module__lnUIdW__nav {
+    display: none;
+  }
+
+  .Header-module__lnUIdW__menuBtn {
+    display: grid;
+  }
+
+  .Header-module__lnUIdW__top {
+    gap: 12px;
+    height: 64px;
+  }
+
+  .Header-module__lnUIdW__actions {
+    margin-inline-start: auto;
+  }
+
+  .Header-module__lnUIdW__searchDesktop {
+    display: none;
+  }
+
+  .Header-module__lnUIdW__searchMobile {
+    padding-bottom: 12px;
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .Header-module__lnUIdW__desktopOnly, .Header-module__lnUIdW__cartLabel {
+    display: none;
+  }
+
+  .Header-module__lnUIdW__cartBtn {
+    width: var(--touch);
+    justify-content: center;
+    padding: 0;
+  }
+
+  .Header-module__lnUIdW__cartCount {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+  }
+}
+
+/*# sourceMappingURL=src_components_layout_Header_module_css_1igg3k2-ikub5._.single.css.map*/

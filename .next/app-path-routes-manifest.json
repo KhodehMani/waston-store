@@ -1,0 +1,14 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/cart/page": "/cart",
+  "/checkout/page": "/checkout",
+  "/info/[slug]/page": "/info/[slug]",
+  "/magazine/[slug]/page": "/magazine/[slug]",
+  "/page": "/",
+  "/product/[slug]/page": "/product/[slug]",
+  "/search/page": "/search",
+  "/shop/[slug]/page": "/shop/[slug]",
+  "/shop/page": "/shop",
+  "/wishlist/page": "/wishlist"
+}

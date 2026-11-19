@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/layout/MobileTabBar.module.css"],"sourcesContent":[".bar {\n  display: none;\n}\n@media (max-width: 767px) {\n  .bar {\n    position: fixed;\n    inset-inline: 0;\n    bottom: 0;\n    z-index: 45;\n    display: grid;\n    grid-template-columns: repeat(5, 1fr);\n    padding-bottom: env(safe-area-inset-bottom);\n    background: var(--header-bg);\n    border-top: 1px solid var(--border);\n    box-shadow: 0 -6px 20px rgb(23 43 77 / 0.06);\n  }\n}\n.tab {\n  display: grid;\n  justify-items: center;\n  align-content: center;\n  gap: 2px;\n  min-height: 60px;\n  font-size: 11px;\n  font-weight: 600;\n  color: var(--muted);\n}\n.active {\n  color: var(--heading);\n  font-weight: 800;\n}\n.active .iconWrap {\n  color: var(--secondary-ink);\n}\n.iconWrap {\n  position: relative;\n}\n.badge {\n  position: absolute;\n  top: -6px;\n  left: -10px;\n  min-width: 18px;\n  height: 18px;\n  padding: 0 4px;\n  border-radius: 999px;\n  background: var(--accent);\n  color: var(--on-accent);\n  font-size: 10px;\n  font-weight: 800;\n  line-height: 18px;\n  text-align: center;\n}\n"],"names":[],"mappings":"AAAA;;;;AAGA;EACE;;;;;;;;;;;;;;AAaF;;;;;;;;;;;AAUA;;;;;AAIA;;;;AAGA;;;;AAGA"}}]
+}

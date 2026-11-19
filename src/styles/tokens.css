@@ -1,0 +1,108 @@
+/*
+ * WASTON design tokens — taken from the "سیستم طراحی WASTON v0.1" page of the mockup.
+ * Light: bg #F4F1EA, surface #FFF, primary #172B4D, secondary #19A7A0, accent #D96C55,
+ *        text #263445, muted #64748B, border #E5E0D7
+ * Dark:  bg #101B2B, surface #1B2B40, primary #F4F1EA, secondary #25B9AE, accent #E58A70,
+ *        text #E5EAF0, muted #B6C2D0, border #304158
+ */
+:root {
+  color-scheme: light;
+  --bg: #f4f1ea;
+  --surface: #ffffff;
+  --surface-2: #faf8f4;
+  --primary: #172b4d;
+  --on-primary: #ffffff;
+  --secondary: #19a7a0;
+  --secondary-hover: #16958f;
+  --on-secondary: #172b4d; /* navy on teal = 4.7:1 (white fails at 3.0:1) */
+  --secondary-ink: #117a75; /* teal for text on light surfaces */
+  --accent: #d96c55;
+  --on-accent: #172b4d; /* dark text on coral badge = 5.4:1 */
+  --accent-ink: #b4472f;
+  --text: #263445;
+  --heading: #172b4d;
+  --muted: #64748b;
+  --border: #e5e0d7;
+  --border-strong: #cfc8bb;
+  --input-bg: #f4f1ea;
+  --focus: #19a7a0;
+
+  --tint-teal: #e0f2f0;
+  --tint-coral: #f8e9e4;
+  --tint-navy: #eceef1;
+  --ink-teal: #19a7a0;
+  --ink-coral: #d96c55;
+  --ink-navy: #172b4d;
+
+  --bar-bg: #e7e3db;
+  --header-bg: #ffffff;
+  --footer-bg: #172b4d;
+  --footer-text: #c9d2de;
+  --footer-heading: #ffffff;
+  --banner-bg: #172b4d;
+  --banner-text: #f4f1ea;
+  --banner-circle: rgb(255 255 255 / 0.08);
+
+  --shadow-sm: 0 1px 2px rgb(23 43 77 / 0.05);
+  --shadow-md: 0 8px 24px rgb(23 43 77 / 0.08);
+  --shadow-lg: 0 18px 48px rgb(23 43 77 / 0.14);
+
+  --radius-card: 18px;
+  --radius-control: 12px;
+  --radius-chip: 999px;
+  --touch: 44px;
+  --container: 1240px;
+  --gutter: 24px;
+
+  --font: "Vazirmatn Variable", "Vazirmatn", Tahoma, system-ui, sans-serif;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #101b2b;
+  --surface: #1b2b40;
+  --surface-2: #172538;
+  --primary: #f4f1ea;
+  --on-primary: #172b4d;
+  --secondary: #25b9ae;
+  --secondary-hover: #2cc9bd;
+  --on-secondary: #101b2b; /* 7.1:1 */
+  --secondary-ink: #3ccfc3;
+  --accent: #e58a70;
+  --on-accent: #101b2b;
+  --accent-ink: #f0a28c;
+  --text: #e5eaf0;
+  --heading: #f4f1ea;
+  --muted: #b6c2d0;
+  --border: #304158;
+  --border-strong: #42567180;
+  --input-bg: #101b2b;
+  --focus: #25b9ae;
+
+  --tint-teal: #1d4049;
+  --tint-coral: #3a3541;
+  --tint-navy: #2a3a50;
+  --ink-teal: #3ccfc3;
+  --ink-coral: #e58a70;
+  --ink-navy: #f4f1ea;
+
+  --bar-bg: #0c1522;
+  --header-bg: #13213a;
+  --footer-bg: #1b2b40;
+  --footer-text: #b6c2d0;
+  --footer-heading: #f4f1ea;
+  --banner-bg: #f4f1ea;
+  --banner-text: #172b4d;
+  --banner-circle: rgb(23 43 77 / 0.08);
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.3);
+  --shadow-md: 0 8px 24px rgb(0 0 0 / 0.35);
+  --shadow-lg: 0 18px 48px rgb(0 0 0 / 0.45);
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: 16px;
+  }
+}

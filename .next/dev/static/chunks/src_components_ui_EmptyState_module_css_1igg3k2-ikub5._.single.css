@@ -1,0 +1,43 @@
+/* [project]/src/components/ui/EmptyState.module.css [app-client] (css) */
+.EmptyState-module__7SqAPW__wrap {
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  justify-items: center;
+  gap: 8px;
+  padding: 48px 24px;
+  display: grid;
+}
+
+.EmptyState-module__7SqAPW__icon {
+  background: var(--tint-teal);
+  width: 64px;
+  height: 64px;
+  color: var(--secondary-ink);
+  border-radius: 50%;
+  place-items: center;
+  margin-bottom: 8px;
+  display: grid;
+}
+
+.EmptyState-module__7SqAPW__title {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.EmptyState-module__7SqAPW__text {
+  color: var(--muted);
+  max-width: 380px;
+  font-size: 14px;
+}
+
+.EmptyState-module__7SqAPW__actions {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_ui_EmptyState_module_css_1igg3k2-ikub5._.single.css.map*/

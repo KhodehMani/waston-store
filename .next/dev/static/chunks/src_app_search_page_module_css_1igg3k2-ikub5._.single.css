@@ -1,0 +1,38 @@
+/* [project]/src/app/search/page.module.css [app-client] (css) */
+.page-module__n5O0Ma__popular {
+  margin-top: 40px;
+}
+
+.page-module__n5O0Ma__popularTitle {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.page-module__n5O0Ma__chips {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.page-module__n5O0Ma__chip {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  min-height: 40px;
+  color: var(--heading);
+  border-radius: 999px;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+}
+
+.page-module__n5O0Ma__chip:hover {
+  border-color: var(--heading);
+}
+
+/*# sourceMappingURL=src_app_search_page_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,96 @@
+/* [project]/src/components/product/ProductMeta.module.css [app-client] (css) */
+.ProductMeta-module__Nux6qa__rating {
+  color: var(--text);
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  display: inline-flex;
+}
+
+.ProductMeta-module__Nux6qa__rating strong {
+  font-weight: 700;
+}
+
+.ProductMeta-module__Nux6qa__star {
+  color: var(--accent);
+  fill: var(--accent);
+}
+
+.ProductMeta-module__Nux6qa__count {
+  color: var(--muted);
+}
+
+.ProductMeta-module__Nux6qa__noReviews {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ProductMeta-module__Nux6qa__stock {
+  color: var(--heading);
+  white-space: nowrap;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+}
+
+.ProductMeta-module__Nux6qa__stock:before {
+  content: "";
+  background: currentColor;
+  border-radius: 50%;
+  width: 7px;
+  height: 7px;
+}
+
+.ProductMeta-module__Nux6qa__in:before {
+  background: var(--secondary);
+}
+
+.ProductMeta-module__Nux6qa__low:before {
+  background: var(--accent);
+}
+
+.ProductMeta-module__Nux6qa__out {
+  color: var(--muted);
+}
+
+.ProductMeta-module__Nux6qa__out:before {
+  background: var(--muted);
+}
+
+.ProductMeta-module__Nux6qa__price {
+  align-content: end;
+  justify-items: start;
+  gap: 0;
+  min-height: 44px;
+  display: grid;
+}
+
+.ProductMeta-module__Nux6qa__compare {
+  color: var(--muted);
+  -webkit-text-decoration-color: var(--accent);
+  text-decoration-color: var(--accent);
+  font-size: 12px;
+}
+
+.ProductMeta-module__Nux6qa__final {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.ProductMeta-module__Nux6qa__final strong {
+  color: var(--heading);
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.ProductMeta-module__Nux6qa__priceLg .ProductMeta-module__Nux6qa__compare, .ProductMeta-module__Nux6qa__priceLg .ProductMeta-module__Nux6qa__final {
+  font-size: 14px;
+}
+
+.ProductMeta-module__Nux6qa__priceLg .ProductMeta-module__Nux6qa__final strong {
+  font-size: 28px;
+}
+
+/*# sourceMappingURL=src_components_product_ProductMeta_module_css_1igg3k2-ikub5._.single.css.map*/

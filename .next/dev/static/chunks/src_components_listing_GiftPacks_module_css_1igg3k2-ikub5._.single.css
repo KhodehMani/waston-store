@@ -1,0 +1,100 @@
+/* [project]/src/components/listing/GiftPacks.module.css [app-client] (css) */
+.GiftPacks-module__AkSq5G__grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.GiftPacks-module__AkSq5G__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  gap: 14px;
+  padding: 16px;
+  display: flex;
+}
+
+.GiftPacks-module__AkSq5G__art {
+  background: var(--tile);
+  width: 84px;
+  height: 84px;
+  color: var(--ink);
+  border-radius: 14px;
+  flex-shrink: 0;
+  place-items: center;
+  display: grid;
+}
+
+.GiftPacks-module__AkSq5G__body {
+  flex: 1;
+  gap: 6px;
+  min-width: 0;
+  display: grid;
+}
+
+.GiftPacks-module__AkSq5G__title {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.GiftPacks-module__AkSq5G__title a:hover {
+  color: var(--secondary-ink);
+}
+
+.GiftPacks-module__AkSq5G__text {
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.GiftPacks-module__AkSq5G__foot {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  display: flex;
+}
+
+.GiftPacks-module__AkSq5G__price {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.GiftPacks-module__AkSq5G__price strong {
+  color: var(--heading);
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.GiftPacks-module__AkSq5G__add {
+  background: var(--secondary);
+  min-height: 40px;
+  color: var(--on-secondary);
+  border: 0;
+  border-radius: 10px;
+  padding: 0 14px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.GiftPacks-module__AkSq5G__add:hover {
+  background: var(--secondary-hover);
+}
+
+@media (max-width: 1100px) {
+  .GiftPacks-module__AkSq5G__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .GiftPacks-module__AkSq5G__grid {
+    grid-auto-columns: minmax(280px, 88%) !important;
+  }
+}
+
+/*# sourceMappingURL=src_components_listing_GiftPacks_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,14 @@
+/* [project]/src/components/layout/AnnouncementBar.module.css [app-client] (css) */
+.AnnouncementBar-module__tQURPG__bar {
+  background: var(--bar-bg);
+  color: var(--text);
+  text-align: center;
+  font-size: 12px;
+}
+
+.AnnouncementBar-module__tQURPG__bar p {
+  padding-block: 7px;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=src_components_layout_AnnouncementBar_module_css_1igg3k2-ikub5._.single.css.map*/

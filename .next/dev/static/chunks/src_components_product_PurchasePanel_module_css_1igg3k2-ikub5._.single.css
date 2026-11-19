@@ -1,0 +1,52 @@
+/* [project]/src/components/product/PurchasePanel.module.css [app-client] (css) */
+.PurchasePanel-module__MddI9q__row {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.PurchasePanel-module__MddI9q__row > :nth-child(2) {
+  flex: 1;
+}
+
+.PurchasePanel-module__MddI9q__wish {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  width: 52px;
+  height: 52px;
+  color: var(--heading);
+  flex-shrink: 0;
+  place-items: center;
+  display: grid;
+}
+
+.PurchasePanel-module__MddI9q__wish:hover {
+  border-color: var(--heading);
+}
+
+.PurchasePanel-module__MddI9q__wished {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.PurchasePanel-module__MddI9q__wished svg {
+  fill: currentColor;
+}
+
+@media (max-width: 520px) {
+  .PurchasePanel-module__MddI9q__row {
+    flex-wrap: wrap;
+  }
+
+  .PurchasePanel-module__MddI9q__row > :nth-child(2) {
+    flex-basis: 100%;
+    order: 3;
+  }
+
+  .PurchasePanel-module__MddI9q__wish {
+    margin-inline-start: auto;
+  }
+}
+
+/*# sourceMappingURL=src_components_product_PurchasePanel_module_css_1igg3k2-ikub5._.single.css.map*/

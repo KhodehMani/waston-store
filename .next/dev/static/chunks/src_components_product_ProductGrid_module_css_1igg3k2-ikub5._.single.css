@@ -1,0 +1,39 @@
+/* [project]/src/components/product/ProductGrid.module.css [app-client] (css) */
+.ProductGrid-module__Wp7uPq__grid {
+  gap: 16px;
+  display: grid;
+}
+
+.ProductGrid-module__Wp7uPq__cols4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.ProductGrid-module__Wp7uPq__cols3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+@media (max-width: 1100px) {
+  .ProductGrid-module__Wp7uPq__cols4 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 1000px) {
+  .ProductGrid-module__Wp7uPq__cols3 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 820px) {
+  .ProductGrid-module__Wp7uPq__cols4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .ProductGrid-module__Wp7uPq__grid {
+    gap: 10px;
+  }
+}
+
+/*# sourceMappingURL=src_components_product_ProductGrid_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,100 @@
+/* [project]/src/styles/tokens.css [app-client] (css) */
+:root {
+  --lightningcss-light: initial;
+  --lightningcss-dark: ;
+  color-scheme: light;
+  --bg: #f4f1ea;
+  --surface: #fff;
+  --surface-2: #faf8f4;
+  --primary: #172b4d;
+  --on-primary: #fff;
+  --secondary: #19a7a0;
+  --secondary-hover: #16958f;
+  --on-secondary: #172b4d;
+  --secondary-ink: #117a75;
+  --accent: #d96c55;
+  --on-accent: #172b4d;
+  --accent-ink: #b4472f;
+  --text: #263445;
+  --heading: #172b4d;
+  --muted: #64748b;
+  --border: #e5e0d7;
+  --border-strong: #cfc8bb;
+  --input-bg: #f4f1ea;
+  --focus: #19a7a0;
+  --tint-teal: #e0f2f0;
+  --tint-coral: #f8e9e4;
+  --tint-navy: #eceef1;
+  --ink-teal: #19a7a0;
+  --ink-coral: #d96c55;
+  --ink-navy: #172b4d;
+  --bar-bg: #e7e3db;
+  --header-bg: #fff;
+  --footer-bg: #172b4d;
+  --footer-text: #c9d2de;
+  --footer-heading: #fff;
+  --banner-bg: #172b4d;
+  --banner-text: #f4f1ea;
+  --banner-circle: #ffffff14;
+  --shadow-sm: 0 1px 2px #172b4d0d;
+  --shadow-md: 0 8px 24px #172b4d14;
+  --shadow-lg: 0 18px 48px #172b4d24;
+  --radius-card: 18px;
+  --radius-control: 12px;
+  --radius-chip: 999px;
+  --touch: 44px;
+  --container: 1240px;
+  --gutter: 24px;
+  --font: "Vazirmatn Variable", "Vazirmatn", Tahoma, system-ui, sans-serif;
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+}
+
+[data-theme="dark"] {
+  --lightningcss-light: ;
+  --lightningcss-dark: initial;
+  color-scheme: dark;
+  --bg: #101b2b;
+  --surface: #1b2b40;
+  --surface-2: #172538;
+  --primary: #f4f1ea;
+  --on-primary: #172b4d;
+  --secondary: #25b9ae;
+  --secondary-hover: #2cc9bd;
+  --on-secondary: #101b2b;
+  --secondary-ink: #3ccfc3;
+  --accent: #e58a70;
+  --on-accent: #101b2b;
+  --accent-ink: #f0a28c;
+  --text: #e5eaf0;
+  --heading: #f4f1ea;
+  --muted: #b6c2d0;
+  --border: #304158;
+  --border-strong: #42567180;
+  --input-bg: #101b2b;
+  --focus: #25b9ae;
+  --tint-teal: #1d4049;
+  --tint-coral: #3a3541;
+  --tint-navy: #2a3a50;
+  --ink-teal: #3ccfc3;
+  --ink-coral: #e58a70;
+  --ink-navy: #f4f1ea;
+  --bar-bg: #0c1522;
+  --header-bg: #13213a;
+  --footer-bg: #1b2b40;
+  --footer-text: #b6c2d0;
+  --footer-heading: #f4f1ea;
+  --banner-bg: #f4f1ea;
+  --banner-text: #172b4d;
+  --banner-circle: #172b4d14;
+  --shadow-sm: 0 1px 2px #0000004d;
+  --shadow-md: 0 8px 24px #00000059;
+  --shadow-lg: 0 18px 48px #00000073;
+}
+
+@media (max-width: 640px) {
+  :root {
+    --gutter: 16px;
+  }
+}
+
+/*# sourceMappingURL=src_styles_tokens_css_1igg3k2-ikub5._.single.css.map*/

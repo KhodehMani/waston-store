@@ -1,0 +1,29 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/0zd5qjib7pb49.js"
+4:"/_next/static/chunks/1lt4dewzk020i.js"
+5:I[39756,["$3","$4"],"default"]
+6:I[37457,["$3","$4"],"default"]
+d:I[22016,["$3","$4"],""]
+e:I[97367,["$3","$4"],"OutletBoundary"]
+f:"$Sreact.suspense"
+12:"ViewportBoundary"
+13:I[97367,["$3","$4"],"$12"]
+14:"MetadataBoundary"
+15:I[97367,["$3","$4"],"$14"]
+16:I[27201,["$3","$4"],"IconMark"]
+8:X
+8:C
+9:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","div",null,{"className":"container","children":[["$","nav",null,{"aria-label":"مسیر صفحه","className":"_3e-AXW_nav","children":["$","ol",null,{"className":"_3e-AXW_list","children":[["$","li","خانه",{"className":"_3e-AXW_item","children":[["$","$Ld",null,{"href":"/","className":"_3e-AXW_home","children":"خانه"}],["$","span",null,{"className":"_3e-AXW_sep","aria-hidden":true,"children":"/"}]]}],["$","li","خدمات مشتریان",{"className":"_3e-AXW_item","children":[["$","span",null,{"className":"_3e-AXW_current","children":"خدمات مشتریان"}],["$","span",null,{"className":"_3e-AXW_sep","aria-hidden":true,"children":"/"}]]}],["$","li","سوالات متداول",{"className":"_3e-AXW_item","children":[["$","span",null,{"aria-current":"page","className":"_3e-AXW_current","children":"سوالات متداول"}],false]}]]}]}],["$","div",null,{"className":"_9lq8_a_wrap","children":[["$","div",null,{"children":[["$","h1",null,{"className":"_9lq8_a_title","children":"سوالات متداول"}],["$","p",null,{"className":"_9lq8_a_subtitle","children":"پاسخ پرتکرارترین سوال‌ها درباره خرید از WASTON."}]]}],"$undefined"]}],["$","div",null,{"className":"HoYuhq_list","children":[["$","section","سفارش چه زمانی ارسال می‌شود؟",{"className":"HoYuhq_card","children":[["$","h2",null,{"children":"سفارش چه زمانی ارسال می‌شود؟"}],["$","p",null,{"children":"سفارش‌های ثبت‌شده تا ساعت [—] روز کاری بعد ارسال می‌شوند."}]]}],["$","section","امکان بسته‌بندی هدیه هست؟",{"className":"HoYuhq_card","children":[["$","h2",null,{"children":"امکان بسته‌بندی هدیه هست؟"}],["$","p",null,{"children":"بله؛ در صفحه محصول یا سبد خرید گزینه «هدیه می‌دهم» را فعال کنید."}]]}],["$","section","قیمت‌ها واقعی‌اند؟",{"className":"HoYuhq_card","children":[["$","h2",null,{"children":"قیمت‌ها واقعی‌اند؟"}],["$","p",null,{"children":"خیر؛ این نسخه نمایشی است و نام محصولات، قیمت‌ها و امتیازها داده آزمایشی‌اند."}]]}]]}]]}],null,["$","$Le",null,{"children":["$","$f",null,{"name":"Next.MetadataOutlet","children":"$@10"}]}]]}],"p":"$@11","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"faq","s":[]},"h":65632,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+1:[["children",{"s":"info","h":131136,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#101b2b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L15",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$f",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"سوالات متداول | WASTON"}],["$","meta","1",{"name":"description","content":"پاسخ پرتکرارترین سوال‌ها درباره خرید از WASTON."}],["$","link","2",{"rel":"icon","href":"/favicon.svg"}],["$","$L16","3",{}]]}]}],null]}],null]}],"p":"$@17","v":null,"s":"$9"}},"a":"$@18","u":"$@19","b":"Nw_UvgXoJDJGYDPYchdPT"}
+10:null
+19:true
+9:300
+9:C
+18:0
+b:"$undefined"
+7:"$undefined"
+17:"$undefined"
+11:"$undefined"

@@ -1,0 +1,29 @@
+/* [project]/src/components/product/SpecsTable.module.css [app-client] (css) */
+.SpecsTable-module__uVQrLW__table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+}
+
+.SpecsTable-module__uVQrLW__table th, .SpecsTable-module__uVQrLW__table td {
+  text-align: start;
+  border-bottom: 1px solid var(--border);
+  padding: 12px 16px;
+}
+
+.SpecsTable-module__uVQrLW__table tr:last-child th, .SpecsTable-module__uVQrLW__table tr:last-child td {
+  border-bottom: 0;
+}
+
+.SpecsTable-module__uVQrLW__table th {
+  width: 38%;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.SpecsTable-module__uVQrLW__table td {
+  color: var(--heading);
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=src_components_product_SpecsTable_module_css_1igg3k2-ikub5._.single.css.map*/

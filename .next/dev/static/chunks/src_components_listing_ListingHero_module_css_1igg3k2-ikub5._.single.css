@@ -1,0 +1,64 @@
+/* [project]/src/components/listing/ListingHero.module.css [app-client] (css) */
+.ListingHero-module__N2vYpG__hero {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 32px;
+  padding: 36px 40px;
+  display: grid;
+}
+
+.ListingHero-module__N2vYpG__copy {
+  justify-items: start;
+  gap: 14px;
+  display: grid;
+}
+
+.ListingHero-module__N2vYpG__eyebrow {
+  letter-spacing: .2em;
+  color: var(--heading);
+  direction: ltr;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.ListingHero-module__N2vYpG__title {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.ListingHero-module__N2vYpG__text {
+  max-width: 560px;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.ListingHero-module__N2vYpG__circle {
+  aspect-ratio: 1;
+  background: var(--tile);
+  width: 190px;
+  color: var(--ink);
+  border-radius: 50%;
+  place-items: center;
+  display: grid;
+}
+
+@media (max-width: 767px) {
+  .ListingHero-module__N2vYpG__hero {
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 24px 20px;
+  }
+
+  .ListingHero-module__N2vYpG__circle {
+    display: none;
+  }
+
+  .ListingHero-module__N2vYpG__title {
+    font-size: 28px;
+  }
+}
+
+/*# sourceMappingURL=src_components_listing_ListingHero_module_css_1igg3k2-ikub5._.single.css.map*/

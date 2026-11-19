@@ -1,0 +1,81 @@
+/* [project]/src/components/ui/NumberedSteps.module.css [app-client] (css) */
+.NumberedSteps-module__rM5dVa__grid {
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.NumberedSteps-module__rM5dVa__four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.NumberedSteps-module__rM5dVa__three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.NumberedSteps-module__rM5dVa__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  align-content: start;
+  gap: 8px;
+  padding: 20px;
+  display: grid;
+}
+
+.NumberedSteps-module__rM5dVa__badge {
+  background: var(--tint-teal);
+  width: 34px;
+  height: 34px;
+  color: var(--secondary-ink);
+  border-radius: 10px;
+  place-items: center;
+  margin-bottom: 6px;
+  font-weight: 800;
+  display: grid;
+}
+
+.NumberedSteps-module__rM5dVa__large {
+  color: var(--secondary);
+  margin-bottom: 8px;
+  font-size: 34px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.NumberedSteps-module__rM5dVa__title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.NumberedSteps-module__rM5dVa__text {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.9;
+}
+
+@media (max-width: 1023px) {
+  .NumberedSteps-module__rM5dVa__four {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 767px) {
+  .NumberedSteps-module__rM5dVa__three {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .NumberedSteps-module__rM5dVa__four {
+    grid-template-columns: 1fr;
+  }
+
+  .NumberedSteps-module__rM5dVa__card {
+    padding: 16px;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_NumberedSteps_module_css_1igg3k2-ikub5._.single.css.map*/

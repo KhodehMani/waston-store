@@ -1,0 +1,131 @@
+/* [project]/src/components/product/ProductDetail.module.css [app-client] (css) */
+.ProductDetail-module__3QZela__grid {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  align-items: start;
+  gap: 40px;
+  display: grid;
+}
+
+.ProductDetail-module__3QZela__gallery {
+  position: sticky;
+  top: 140px;
+}
+
+.ProductDetail-module__3QZela__badges {
+  justify-items: end;
+  gap: 6px;
+  display: grid;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.ProductDetail-module__3QZela__badges span {
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.ProductDetail-module__3QZela__discount {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+.ProductDetail-module__3QZela__new {
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+
+.ProductDetail-module__3QZela__plain {
+  background: var(--surface);
+  color: var(--heading);
+  box-shadow: var(--shadow-sm);
+}
+
+.ProductDetail-module__3QZela__info {
+  gap: 16px;
+  display: grid;
+}
+
+.ProductDetail-module__3QZela__brand {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.ProductDetail-module__3QZela__title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.ProductDetail-module__3QZela__meta {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.ProductDetail-module__3QZela__sep {
+  background: var(--border-strong);
+  width: 1px;
+  height: 14px;
+}
+
+.ProductDetail-module__3QZela__summary {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.ProductDetail-module__3QZela__highlights {
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  display: grid;
+}
+
+.ProductDetail-module__3QZela__highlights li {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.ProductDetail-module__3QZela__highlights svg {
+  color: var(--secondary);
+  flex-shrink: 0;
+}
+
+.ProductDetail-module__3QZela__buyBox {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  gap: 16px;
+  padding: 20px;
+  display: grid;
+}
+
+.ProductDetail-module__3QZela__gift {
+  margin-top: 4px;
+}
+
+@media (max-width: 900px) {
+  .ProductDetail-module__3QZela__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+  }
+
+  .ProductDetail-module__3QZela__gallery {
+    width: 100%;
+    max-width: 520px;
+    margin-inline: auto;
+    position: relative;
+    top: 0;
+  }
+
+  .ProductDetail-module__3QZela__title {
+    font-size: 26px;
+  }
+}
+
+/*# sourceMappingURL=src_components_product_ProductDetail_module_css_1igg3k2-ikub5._.single.css.map*/

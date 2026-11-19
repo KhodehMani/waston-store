@@ -1,0 +1,143 @@
+/* [project]/src/components/listing/ListingView.module.css [app-client] (css) */
+.ListingView-module__ucFBkG__wrap {
+  margin-top: 24px;
+}
+
+.ListingView-module__ucFBkG__chips {
+  margin-bottom: 20px;
+}
+
+.ListingView-module__ucFBkG__layout {
+  grid-template-columns: 228px minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+  display: grid;
+}
+
+.ListingView-module__ucFBkG__sidebar {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 18px 16px 8px;
+  position: sticky;
+  top: 140px;
+}
+
+.ListingView-module__ucFBkG__toolbar {
+  min-height: var(--touch);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.ListingView-module__ucFBkG__count {
+  color: var(--heading);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.ListingView-module__ucFBkG__sort {
+  align-items: center;
+  gap: 10px;
+  margin-inline-start: auto;
+  display: flex;
+}
+
+.ListingView-module__ucFBkG__sortLabel {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.ListingView-module__ucFBkG__selectWrap {
+  align-items: center;
+  display: inline-flex;
+  position: relative;
+}
+
+.ListingView-module__ucFBkG__selectWrap select {
+  appearance: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  min-height: 40px;
+  color: var(--heading);
+  cursor: pointer;
+  padding: 0 14px 0 36px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ListingView-module__ucFBkG__selectWrap svg {
+  pointer-events: none;
+  color: var(--muted);
+  position: absolute;
+  left: 12px;
+}
+
+.ListingView-module__ucFBkG__filterBtn {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  min-height: 40px;
+  color: var(--heading);
+  align-items: center;
+  gap: 8px;
+  padding: 0 14px;
+  font-size: 13px;
+  font-weight: 700;
+  display: none;
+}
+
+.ListingView-module__ucFBkG__filterCount {
+  background: var(--secondary);
+  min-width: 20px;
+  height: 20px;
+  color: var(--on-secondary);
+  text-align: center;
+  border-radius: 999px;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+.ListingView-module__ucFBkG__sheetFooter {
+  gap: 8px;
+  display: flex;
+}
+
+@media (max-width: 900px) {
+  .ListingView-module__ucFBkG__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .ListingView-module__ucFBkG__sidebar {
+    display: none;
+  }
+
+  .ListingView-module__ucFBkG__filterBtn {
+    display: inline-flex;
+  }
+
+  .ListingView-module__ucFBkG__count {
+    order: 3;
+    width: 100%;
+    font-size: 13px;
+  }
+
+  .ListingView-module__ucFBkG__toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .ListingView-module__ucFBkG__sort {
+    margin-inline-start: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .ListingView-module__ucFBkG__sortLabel {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=src_components_listing_ListingView_module_css_1igg3k2-ikub5._.single.css.map*/

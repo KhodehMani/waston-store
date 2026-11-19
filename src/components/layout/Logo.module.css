@@ -1,0 +1,30 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.mark {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--primary);
+  color: var(--on-primary);
+}
+.text {
+  display: grid;
+  line-height: 1.15;
+}
+.word {
+  direction: ltr;
+  font-size: 19px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: var(--heading);
+}
+.tag {
+  font-size: 10px;
+  color: var(--muted);
+}

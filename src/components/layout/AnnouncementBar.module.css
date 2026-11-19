@@ -1,0 +1,10 @@
+.bar {
+  background: var(--bar-bg);
+  color: var(--text);
+  font-size: 12px;
+  text-align: center;
+}
+.bar p {
+  padding-block: 7px;
+  line-height: 1.6;
+}

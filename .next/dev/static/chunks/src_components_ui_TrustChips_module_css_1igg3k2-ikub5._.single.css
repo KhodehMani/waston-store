@@ -1,0 +1,35 @@
+/* [project]/src/components/ui/TrustChips.module.css [app-client] (css) */
+.TrustChips-module__U6xzpa__chips, .TrustChips-module__U6xzpa__plain {
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.TrustChips-module__U6xzpa__chip {
+  color: var(--heading);
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-flex;
+}
+
+.TrustChips-module__U6xzpa__chip svg {
+  color: var(--secondary);
+}
+
+.TrustChips-module__U6xzpa__chips .TrustChips-module__U6xzpa__chip {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-chip);
+  background: var(--surface);
+  padding: 6px 12px;
+}
+
+.TrustChips-module__U6xzpa__plain {
+  gap: 18px;
+}
+
+/*# sourceMappingURL=src_components_ui_TrustChips_module_css_1igg3k2-ikub5._.single.css.map*/

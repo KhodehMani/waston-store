@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/magazine/layout,_N_T_/magazine/[slug]/layout,_N_T_/magazine/[slug]/page,_N_T_/magazine/housewarming-gifts"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/magazine/$d$slug/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 96,
+            "slots": {
+              "children": {
+                "hints": 160,
+                "slots": null
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/608477f72c5a0548169a80a5f39c6ffe1cc1689bfd91a284cbf245ca974316c1/$/magazine/housewarming-gifts",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/magazine/[slug]/page"
+    },
+    "isFallback": false
+  }
+}

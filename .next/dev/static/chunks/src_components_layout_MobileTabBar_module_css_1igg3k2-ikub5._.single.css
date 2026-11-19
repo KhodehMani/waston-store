@@ -1,0 +1,61 @@
+/* [project]/src/components/layout/MobileTabBar.module.css [app-client] (css) */
+.MobileTabBar-module__ygATFW__bar {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .MobileTabBar-module__ygATFW__bar {
+    inset-inline: 0;
+    z-index: 45;
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--header-bg);
+    border-top: 1px solid var(--border);
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0 -6px 20px #172b4d0f;
+  }
+}
+
+.MobileTabBar-module__ygATFW__tab {
+  min-height: 60px;
+  color: var(--muted);
+  align-content: center;
+  justify-items: center;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 600;
+  display: grid;
+}
+
+.MobileTabBar-module__ygATFW__active {
+  color: var(--heading);
+  font-weight: 800;
+}
+
+.MobileTabBar-module__ygATFW__active .MobileTabBar-module__ygATFW__iconWrap {
+  color: var(--secondary-ink);
+}
+
+.MobileTabBar-module__ygATFW__iconWrap {
+  position: relative;
+}
+
+.MobileTabBar-module__ygATFW__badge {
+  background: var(--accent);
+  min-width: 18px;
+  height: 18px;
+  color: var(--on-accent);
+  text-align: center;
+  border-radius: 999px;
+  padding: 0 4px;
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 18px;
+  position: absolute;
+  top: -6px;
+  left: -10px;
+}
+
+/*# sourceMappingURL=src_components_layout_MobileTabBar_module_css_1igg3k2-ikub5._.single.css.map*/

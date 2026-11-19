@@ -1,0 +1,37 @@
+/* [project]/src/components/ui/Chips.module.css [app-client] (css) */
+.Chips-module__yr09qW__row {
+  scrollbar-width: none;
+  gap: 8px;
+  padding-bottom: 2px;
+  display: flex;
+  overflow-x: auto;
+}
+
+.Chips-module__yr09qW__row::-webkit-scrollbar {
+  display: none;
+}
+
+.Chips-module__yr09qW__chip {
+  border-radius: var(--radius-chip);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  min-height: 40px;
+  color: var(--heading);
+  flex-shrink: 0;
+  padding: 0 18px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: background-color .18s, color .18s, border-color .18s;
+}
+
+.Chips-module__yr09qW__chip:hover {
+  border-color: var(--heading);
+}
+
+.Chips-module__yr09qW__active, .Chips-module__yr09qW__active:hover {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--on-primary);
+}
+
+/*# sourceMappingURL=src_components_ui_Chips_module_css_1igg3k2-ikub5._.single.css.map*/

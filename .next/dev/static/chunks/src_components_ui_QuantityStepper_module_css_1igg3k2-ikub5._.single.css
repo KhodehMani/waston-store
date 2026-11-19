@@ -1,0 +1,38 @@
+/* [project]/src/components/ui/QuantityStepper.module.css [app-client] (css) */
+.QuantityStepper-module__55mJhW__stepper {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  height: var(--touch);
+  align-items: center;
+  display: inline-flex;
+}
+
+.QuantityStepper-module__55mJhW__btn {
+  width: 40px;
+  height: 100%;
+  color: var(--heading);
+  border-radius: var(--radius-control);
+  background: none;
+  border: 0;
+  place-items: center;
+  display: grid;
+}
+
+.QuantityStepper-module__55mJhW__btn:hover:not(:disabled) {
+  color: var(--secondary-ink);
+}
+
+.QuantityStepper-module__55mJhW__btn:disabled {
+  opacity: .35;
+  cursor: not-allowed;
+}
+
+.QuantityStepper-module__55mJhW__value {
+  text-align: center;
+  min-width: 28px;
+  color: var(--heading);
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=src_components_ui_QuantityStepper_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,58 @@
+/* [project]/src/components/cart/OrderSummary.module.css [app-client] (css) */
+.OrderSummary-module__GzQcAa__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  gap: 16px;
+  padding: 20px;
+  display: grid;
+}
+
+.OrderSummary-module__GzQcAa__title {
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.OrderSummary-module__GzQcAa__rows {
+  gap: 10px;
+  margin: 0;
+  font-size: 14px;
+  display: grid;
+}
+
+.OrderSummary-module__GzQcAa__rows > div {
+  justify-content: space-between;
+  gap: 12px;
+  display: flex;
+}
+
+.OrderSummary-module__GzQcAa__rows dt {
+  color: var(--muted);
+}
+
+.OrderSummary-module__GzQcAa__rows dd {
+  color: var(--heading);
+  margin: 0;
+  font-weight: 600;
+}
+
+.OrderSummary-module__GzQcAa__saving dd, .OrderSummary-module__GzQcAa__saving dt {
+  color: var(--accent-ink);
+}
+
+.OrderSummary-module__GzQcAa__total {
+  border-top: 1px dashed var(--border-strong);
+  padding-top: 12px;
+}
+
+.OrderSummary-module__GzQcAa__total dt {
+  color: var(--heading);
+  font-weight: 700;
+}
+
+.OrderSummary-module__GzQcAa__total strong {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+/*# sourceMappingURL=src_components_cart_OrderSummary_module_css_1igg3k2-ikub5._.single.css.map*/

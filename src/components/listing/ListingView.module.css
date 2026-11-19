@@ -1,0 +1,120 @@
+.wrap {
+  margin-top: 24px;
+}
+.chips {
+  margin-bottom: 20px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: 228px minmax(0, 1fr);
+  align-items: start;
+  gap: 24px;
+}
+.sidebar {
+  position: sticky;
+  top: 140px;
+  padding: 18px 16px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  min-height: var(--touch);
+}
+.count {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--heading);
+}
+.sort {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-inline-start: auto;
+}
+.sortLabel {
+  font-size: 13px;
+  color: var(--muted);
+}
+.selectWrap {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+.selectWrap select {
+  appearance: none;
+  min-height: 40px;
+  padding: 0 14px 0 36px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--heading);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.selectWrap svg {
+  position: absolute;
+  left: 12px;
+  pointer-events: none;
+  color: var(--muted);
+}
+.filterBtn {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  color: var(--heading);
+  font-size: 13px;
+  font-weight: 700;
+}
+.filterCount {
+  min-width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  background: var(--secondary);
+  color: var(--on-secondary);
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+}
+.sheetFooter {
+  display: flex;
+  gap: 8px;
+}
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+  .sidebar {
+    display: none;
+  }
+  .filterBtn {
+    display: inline-flex;
+  }
+  .count {
+    order: 3;
+    width: 100%;
+    font-size: 13px;
+  }
+  .toolbar {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .sort {
+    margin-inline-start: auto;
+  }
+}
+@media (max-width: 480px) {
+  .sortLabel {
+    display: none;
+  }
+}

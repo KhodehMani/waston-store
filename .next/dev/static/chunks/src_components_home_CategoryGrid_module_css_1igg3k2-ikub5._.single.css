@@ -1,0 +1,77 @@
+/* [project]/src/components/home/CategoryGrid.module.css [app-client] (css) */
+.CategoryGrid-module__lkiVUG__grid {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.CategoryGrid-module__lkiVUG__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  height: 100%;
+  transition: box-shadow .25s ease, transform .25s var(--ease-out);
+  flex-direction: column;
+  padding: 8px;
+  display: flex;
+}
+
+.CategoryGrid-module__lkiVUG__card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.CategoryGrid-module__lkiVUG__art {
+  aspect-ratio: 4 / 3;
+  background: var(--tile);
+  color: var(--ink);
+  border-radius: 12px;
+  place-items: center;
+  display: grid;
+}
+
+.CategoryGrid-module__lkiVUG__foot {
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 6px 6px;
+  display: flex;
+}
+
+.CategoryGrid-module__lkiVUG__foot strong {
+  color: var(--heading);
+  font-size: 14px;
+  display: block;
+}
+
+.CategoryGrid-module__lkiVUG__foot small {
+  color: var(--muted);
+  font-size: 12px;
+  display: block;
+}
+
+.CategoryGrid-module__lkiVUG__chev {
+  color: var(--heading);
+  transition: transform .2s;
+}
+
+.CategoryGrid-module__lkiVUG__card:hover .CategoryGrid-module__lkiVUG__chev {
+  transform: translateX(-3px);
+}
+
+@media (max-width: 1023px) {
+  .CategoryGrid-module__lkiVUG__grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .CategoryGrid-module__lkiVUG__grid {
+    grid-auto-columns: minmax(160px, 44%) !important;
+  }
+}
+
+/*# sourceMappingURL=src_components_home_CategoryGrid_module_css_1igg3k2-ikub5._.single.css.map*/

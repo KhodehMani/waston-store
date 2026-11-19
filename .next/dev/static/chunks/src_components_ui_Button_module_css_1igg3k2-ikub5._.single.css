@@ -1,0 +1,96 @@
+/* [project]/src/components/ui/Button.module.css [app-client] (css) */
+.Button-module__8RiFmG__btn {
+  min-height: var(--touch);
+  border-radius: var(--radius-control);
+  white-space: nowrap;
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  border: 1.5px solid #0000;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 0 20px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.2;
+  transition: background-color .18s, border-color .18s, color .18s, transform .12s, opacity .18s;
+  display: inline-flex;
+}
+
+.Button-module__8RiFmG__btn:active:not(:disabled) {
+  transform: scale(.97);
+}
+
+.Button-module__8RiFmG__btn:disabled {
+  cursor: not-allowed;
+  opacity: .55;
+}
+
+.Button-module__8RiFmG__btn svg {
+  flex-shrink: 0;
+}
+
+.Button-module__8RiFmG__primary {
+  background: var(--primary);
+  color: var(--on-primary);
+}
+
+.Button-module__8RiFmG__primary:hover:not(:disabled) {
+  opacity: .9;
+}
+
+.Button-module__8RiFmG__secondary {
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+
+.Button-module__8RiFmG__secondary:hover:not(:disabled) {
+  background: var(--secondary-hover);
+}
+
+.Button-module__8RiFmG__outline {
+  background: var(--surface);
+  color: var(--heading);
+  border-color: var(--heading);
+}
+
+.Button-module__8RiFmG__outline:hover:not(:disabled) {
+  background: var(--tint-navy);
+}
+
+.Button-module__8RiFmG__ghost {
+  color: var(--heading);
+  border-color: var(--border);
+  background: none;
+}
+
+.Button-module__8RiFmG__ghost:hover:not(:disabled) {
+  border-color: var(--heading);
+}
+
+.Button-module__8RiFmG__on-dark {
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+
+.Button-module__8RiFmG__on-dark:hover:not(:disabled) {
+  background: var(--secondary-hover);
+}
+
+.Button-module__8RiFmG__sm {
+  min-height: 36px;
+  padding: 0 14px;
+  font-size: 13px;
+}
+
+.Button-module__8RiFmG__lg {
+  min-height: 52px;
+  padding: 0 26px;
+  font-size: 16px;
+}
+
+.Button-module__8RiFmG__block {
+  width: 100%;
+}
+
+/*# sourceMappingURL=src_components_ui_Button_module_css_1igg3k2-ikub5._.single.css.map*/

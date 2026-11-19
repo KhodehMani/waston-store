@@ -1,0 +1,323 @@
+/* [project]/src/components/checkout/CheckoutView.module.css [app-client] (css) */
+.CheckoutView-module__mxw7ga__layout {
+  grid-template-columns: minmax(0, 1fr) 380px;
+  align-items: start;
+  gap: 24px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__main {
+  gap: 16px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  gap: 14px;
+  min-width: 0;
+  margin: 0;
+  padding: 20px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__cardTitle {
+  float: left;
+  width: 100%;
+  color: var(--heading);
+  padding: 0;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+.CheckoutView-module__mxw7ga__row2 {
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__field {
+  align-content: start;
+  gap: 6px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__field label {
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.CheckoutView-module__mxw7ga__field input, .CheckoutView-module__mxw7ga__field select, .CheckoutView-module__mxw7ga__field textarea {
+  width: 100%;
+  min-height: var(--touch);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--input-bg);
+  color: var(--text);
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.CheckoutView-module__mxw7ga__field textarea {
+  resize: vertical;
+}
+
+.CheckoutView-module__mxw7ga__field input:focus-visible, .CheckoutView-module__mxw7ga__field select:focus-visible, .CheckoutView-module__mxw7ga__field textarea:focus-visible {
+  outline: 2px solid var(--focus);
+  outline-offset: 1px;
+  border-color: #0000;
+}
+
+.CheckoutView-module__mxw7ga__invalid input, .CheckoutView-module__mxw7ga__invalid select, .CheckoutView-module__mxw7ga__invalid textarea {
+  border-color: var(--accent);
+}
+
+.CheckoutView-module__mxw7ga__error {
+  color: var(--accent-ink);
+  font-size: 12px;
+}
+
+.CheckoutView-module__mxw7ga__hint {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.CheckoutView-module__mxw7ga__alert {
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-control);
+  background: var(--tint-coral);
+  color: var(--heading);
+  align-items: center;
+  gap: 10px;
+  padding: 12px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+}
+
+.CheckoutView-module__mxw7ga__alert svg {
+  color: var(--accent-ink);
+}
+
+.CheckoutView-module__mxw7ga__giftNote {
+  background: var(--tint-coral);
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 12px;
+  font-size: 13px;
+  display: flex;
+}
+
+.CheckoutView-module__mxw7ga__methods {
+  gap: 10px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__method {
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  border-radius: 14px;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  transition: border-color .18s;
+  display: flex;
+  position: relative;
+}
+
+.CheckoutView-module__mxw7ga__method input {
+  opacity: 0;
+  position: absolute;
+}
+
+.CheckoutView-module__mxw7ga__methodOn {
+  border-color: var(--secondary);
+}
+
+.CheckoutView-module__mxw7ga__radio {
+  border: 1.5px solid var(--border-strong);
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.CheckoutView-module__mxw7ga__methodOn .CheckoutView-module__mxw7ga__radio {
+  border-color: var(--primary);
+  background: var(--secondary);
+  box-shadow: inset 0 0 0 3px var(--surface);
+}
+
+.CheckoutView-module__mxw7ga__method input:focus-visible + .CheckoutView-module__mxw7ga__radio {
+  outline: 2px solid var(--focus);
+  outline-offset: 2px;
+}
+
+.CheckoutView-module__mxw7ga__methodText {
+  flex: 1;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__methodText strong {
+  color: var(--heading);
+  font-size: 14px;
+}
+
+.CheckoutView-module__mxw7ga__methodText small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.CheckoutView-module__mxw7ga__methodCost {
+  color: var(--heading);
+  white-space: nowrap;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.CheckoutView-module__mxw7ga__payIcon {
+  color: var(--secondary-ink);
+}
+
+.CheckoutView-module__mxw7ga__aside {
+  position: sticky;
+  top: 140px;
+}
+
+.CheckoutView-module__mxw7ga__items {
+  gap: 10px;
+  max-height: 260px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  overflow-y: auto;
+}
+
+.CheckoutView-module__mxw7ga__items li {
+  color: var(--heading);
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  display: flex;
+}
+
+.CheckoutView-module__mxw7ga__items li > div {
+  border-radius: 10px;
+  width: 48px;
+  height: 48px;
+}
+
+.CheckoutView-module__mxw7ga__items small {
+  color: var(--muted);
+  display: block;
+}
+
+.CheckoutView-module__mxw7ga__giftSummary {
+  background: var(--tint-coral);
+  border-radius: 12px;
+  gap: 4px;
+  padding: 12px;
+  font-size: 12px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__giftSummary strong {
+  color: var(--heading);
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  display: flex;
+}
+
+.CheckoutView-module__mxw7ga__giftSummary q {
+  color: var(--text);
+}
+
+.CheckoutView-module__mxw7ga__giftSummary a {
+  color: var(--heading);
+  text-underline-offset: 4px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.CheckoutView-module__mxw7ga__terms {
+  color: var(--muted);
+  text-align: center;
+  font-size: 12px;
+}
+
+.CheckoutView-module__mxw7ga__terms a {
+  text-decoration: underline;
+}
+
+.CheckoutView-module__mxw7ga__success {
+  text-align: center;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  justify-items: center;
+  gap: 10px;
+  padding: 56px 24px;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__success h2 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.CheckoutView-module__mxw7ga__successIcon {
+  background: var(--tint-teal);
+  width: 72px;
+  height: 72px;
+  color: var(--secondary-ink);
+  animation: CheckoutView-module__mxw7ga__pop .4s var(--ease-out);
+  border-radius: 50%;
+  place-items: center;
+  display: grid;
+}
+
+.CheckoutView-module__mxw7ga__successNote {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.CheckoutView-module__mxw7ga__successActions {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 12px;
+  display: flex;
+}
+
+@keyframes CheckoutView-module__mxw7ga__pop {
+  from {
+    opacity: 0;
+    transform: scale(.6);
+  }
+}
+
+@media (max-width: 960px) {
+  .CheckoutView-module__mxw7ga__layout {
+    grid-template-columns: 1fr;
+  }
+
+  .CheckoutView-module__mxw7ga__aside {
+    position: static;
+  }
+}
+
+@media (max-width: 560px) {
+  .CheckoutView-module__mxw7ga__row2 {
+    grid-template-columns: 1fr;
+  }
+
+  .CheckoutView-module__mxw7ga__card {
+    padding: 16px;
+  }
+}
+
+/*# sourceMappingURL=src_components_checkout_CheckoutView_module_css_1igg3k2-ikub5._.single.css.map*/

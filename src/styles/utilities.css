@@ -1,0 +1,109 @@
+/* Layout & shared primitives used across components. */
+
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin-inline: auto;
+  padding-inline: var(--gutter);
+}
+
+.section {
+  margin-top: 72px;
+}
+
+.section--tight {
+  margin-top: 48px;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--tint-navy) 25%, var(--surface-2) 50%, var(--tint-navy) 75%);
+  background-size: 200% 100%;
+  animation: skeleton 1.4s ease-in-out infinite;
+  border-radius: var(--radius-control);
+}
+
+@keyframes skeleton {
+  from {
+    background-position: 200% 0;
+  }
+  to {
+    background-position: -200% 0;
+  }
+}
+
+/* Tone helpers for illustration tiles */
+.tone-teal {
+  --tile: var(--tint-teal);
+  --ink: var(--ink-teal);
+}
+.tone-coral {
+  --tile: var(--tint-coral);
+  --ink: var(--ink-coral);
+}
+.tone-navy {
+  --tile: var(--tint-navy);
+  --ink: var(--ink-navy);
+}
+
+/* Horizontal rails on small screens */
+@media (max-width: 640px) {
+  .scroll-rail {
+    display: grid !important;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(220px, 72%);
+    grid-template-columns: none !important;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior-x: contain;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-inline: var(--gutter);
+    padding-bottom: 6px;
+    scrollbar-width: none;
+  }
+  .scroll-rail::-webkit-scrollbar {
+    display: none;
+  }
+  .scroll-rail > * {
+    scroll-snap-align: start;
+  }
+}
+
+/* Skip link becomes visible when focused */
+a.visually-hidden:focus {
+  position: fixed !important;
+  top: 8px;
+  right: 8px;
+  z-index: 100;
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 10px 16px;
+  clip: auto;
+  border-radius: 10px;
+  background: var(--primary);
+  color: var(--on-primary);
+  white-space: normal;
+}

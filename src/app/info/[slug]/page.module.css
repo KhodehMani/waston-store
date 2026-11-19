@@ -1,0 +1,20 @@
+.list {
+  display: grid;
+  gap: 12px;
+  max-width: 760px;
+}
+.card {
+  padding: 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.card h2 {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.card p {
+  font-size: 14px;
+  line-height: 2;
+}

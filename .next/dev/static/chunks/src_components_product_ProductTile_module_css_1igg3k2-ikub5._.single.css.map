@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/product/ProductTile.module.css"],"sourcesContent":[".tile {\n  position: relative;\n  display: grid;\n  place-items: center;\n  background: var(--tile);\n  color: var(--ink);\n}\n.card {\n  aspect-ratio: 1 / 1;\n}\n.large {\n  aspect-ratio: 1 / 1;\n  border-radius: var(--radius-card);\n}\n.thumb {\n  width: 72px;\n  height: 72px;\n  border-radius: 14px;\n  flex-shrink: 0;\n}\n.art {\n  transition: transform 0.4s var(--ease-out);\n}\n.out .art {\n  opacity: 0.45;\n}\n.out {\n  filter: saturate(0.6);\n}\n.outPill {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  padding: 4px 14px;\n  border-radius: var(--radius-chip);\n  background: var(--surface);\n  color: var(--heading);\n  font-size: 12px;\n  font-weight: 700;\n  box-shadow: var(--shadow-sm);\n}\n.sample {\n  position: absolute;\n  bottom: 10px;\n  left: 10px;\n  padding: 1px 8px;\n  border-radius: 6px;\n  background: var(--surface);\n  color: var(--muted);\n  font-size: 10px;\n  font-weight: 500;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;AAGA;;;;;AAIA;;;;;;;AAMA;;;;AAGA;;;;AAGA;;;;AAGA;;;;;;;;;;;;;;AAaA"}}]
+}

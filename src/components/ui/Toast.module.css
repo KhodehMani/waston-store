@@ -1,0 +1,68 @@
+.region {
+  position: fixed;
+  inset-inline: 0;
+  bottom: 24px;
+  z-index: 80;
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  pointer-events: none;
+  padding-inline: 16px;
+}
+.toast {
+  pointer-events: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  max-width: 420px;
+  padding: 8px 10px 8px 16px;
+  padding-inline-start: 10px;
+  border-radius: var(--radius-control);
+  background: var(--primary);
+  color: var(--on-primary);
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  animation: toast-in 0.32s var(--ease-out);
+}
+.iconOk,
+.iconInfo {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.iconOk {
+  background: var(--secondary);
+  color: var(--on-secondary);
+}
+.iconInfo {
+  background: rgb(255 255 255 / 0.15);
+}
+.msg {
+  flex: 1;
+}
+.action {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.action:hover {
+  background: rgb(255 255 255 / 0.1);
+}
+@keyframes toast-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.98);
+  }
+}
+@media (max-width: 767px) {
+  .region {
+    bottom: 84px;
+  }
+}

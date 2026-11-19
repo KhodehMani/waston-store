@@ -1,0 +1,27 @@
+/* [project]/src/components/ui/PageHeading.module.css [app-client] (css) */
+.PageHeading-module__9lq8_a__wrap {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.PageHeading-module__9lq8_a__title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.PageHeading-module__9lq8_a__subtitle {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+@media (max-width: 640px) {
+  .PageHeading-module__9lq8_a__title {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_PageHeading_module_css_1igg3k2-ikub5._.single.css.map*/

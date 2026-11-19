@@ -1,0 +1,42 @@
+/* [project]/src/app/product/[slug]/page.module.css [app-client] (css) */
+.page-module__a-pW1W__details {
+  grid-template-columns: 1.3fr 1fr;
+  align-items: start;
+  gap: 24px;
+  display: grid;
+}
+
+.page-module__a-pW1W__panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  padding: 20px;
+}
+
+.page-module__a-pW1W__panelTitle {
+  margin-bottom: 12px;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.page-module__a-pW1W__note {
+  color: var(--muted);
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.page-module__a-pW1W__reviewsEmpty {
+  color: var(--muted);
+  border: 1px dashed var(--border-strong);
+  border-radius: 12px;
+  padding: 16px;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .page-module__a-pW1W__details {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_app_product_%5Bslug%5D_page_module_css_1igg3k2-ikub5._.single.css.map*/

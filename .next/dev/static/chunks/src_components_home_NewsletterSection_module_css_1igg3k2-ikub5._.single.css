@@ -1,0 +1,36 @@
+/* [project]/src/components/home/NewsletterSection.module.css [app-client] (css) */
+.NewsletterSection-module__dXwT9G__box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+  grid-template-columns: 1fr minmax(0, 480px);
+  align-items: center;
+  gap: 32px;
+  padding: 28px 32px;
+  display: grid;
+}
+
+.NewsletterSection-module__dXwT9G__title {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.NewsletterSection-module__dXwT9G__text {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+@media (max-width: 860px) {
+  .NewsletterSection-module__dXwT9G__box {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 24px 20px;
+  }
+
+  .NewsletterSection-module__dXwT9G__title {
+    font-size: 19px;
+  }
+}
+
+/*# sourceMappingURL=src_components_home_NewsletterSection_module_css_1igg3k2-ikub5._.single.css.map*/

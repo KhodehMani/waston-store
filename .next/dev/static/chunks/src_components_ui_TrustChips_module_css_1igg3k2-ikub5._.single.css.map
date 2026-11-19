@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/ui/TrustChips.module.css"],"sourcesContent":[".chips,\n.plain {\n  display: flex;\n  flex-wrap: wrap;\n  gap: 8px;\n  list-style: none;\n  margin: 0;\n  padding: 0;\n}\n.chip {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 12px;\n  font-weight: 600;\n  color: var(--heading);\n}\n.chip svg {\n  color: var(--secondary);\n}\n.chips .chip {\n  padding: 6px 12px;\n  border: 1px solid var(--border);\n  border-radius: var(--radius-chip);\n  background: var(--surface);\n}\n.plain {\n  gap: 18px;\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;;;;AAQA;;;;AAGA;;;;;;;AAMA"}}]
+}

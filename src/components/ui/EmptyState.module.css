@@ -1,0 +1,36 @@
+.wrap {
+  display: grid;
+  justify-items: center;
+  text-align: center;
+  gap: 8px;
+  padding: 48px 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-card);
+}
+.icon {
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: var(--tint-teal);
+  color: var(--secondary-ink);
+  margin-bottom: 8px;
+}
+.title {
+  font-size: 17px;
+  font-weight: 700;
+}
+.text {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 380px;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
+}

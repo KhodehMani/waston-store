@@ -1,0 +1,53 @@
+/* [project]/src/components/ui/Accordion.module.css [app-client] (css) */
+.Accordion-module__UqckKa__list {
+  gap: 10px;
+  display: grid;
+}
+
+.Accordion-module__UqckKa__item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  transition: border-color .2s;
+}
+
+.Accordion-module__UqckKa__open {
+  border-color: var(--secondary);
+}
+
+.Accordion-module__UqckKa__heading {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.Accordion-module__UqckKa__trigger {
+  text-align: start;
+  width: 100%;
+  min-height: 52px;
+  color: var(--heading);
+  background: none;
+  border: 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  font-weight: 700;
+  display: flex;
+}
+
+.Accordion-module__UqckKa__icon {
+  transition: transform .25s var(--ease-out);
+  flex-shrink: 0;
+}
+
+.Accordion-module__UqckKa__open .Accordion-module__UqckKa__icon {
+  transform: rotate(45deg);
+}
+
+.Accordion-module__UqckKa__panel {
+  color: var(--muted);
+  padding: 0 16px 16px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=src_components_ui_Accordion_module_css_1igg3k2-ikub5._.single.css.map*/

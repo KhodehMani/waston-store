@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/components/listing/ListingHero.module.css"],"sourcesContent":[".hero {\n  display: grid;\n  grid-template-columns: 1fr auto;\n  align-items: center;\n  gap: 32px;\n  padding: 36px 40px;\n  background: var(--surface);\n  border: 1px solid var(--border);\n  border-radius: var(--radius-card);\n}\n.copy {\n  display: grid;\n  gap: 14px;\n  justify-items: start;\n}\n.eyebrow {\n  direction: ltr;\n  font-size: 12px;\n  font-weight: 800;\n  letter-spacing: 0.2em;\n  color: var(--heading);\n}\n.title {\n  font-size: 40px;\n  font-weight: 800;\n}\n.text {\n  max-width: 560px;\n  font-size: 15px;\n  line-height: 1.9;\n}\n.circle {\n  display: grid;\n  place-items: center;\n  width: 190px;\n  aspect-ratio: 1;\n  border-radius: 50%;\n  background: var(--tile);\n  color: var(--ink);\n}\n@media (max-width: 767px) {\n  .hero {\n    grid-template-columns: 1fr;\n    padding: 24px 20px;\n    gap: 0;\n  }\n  .circle {\n    display: none;\n  }\n  .title {\n    font-size: 28px;\n  }\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;;;AAUA;;;;;;AAKA;;;;;;;;AAOA;;;;;AAIA;;;;;;AAKA;;;;;;;;;;AASA;EACE;;;;;;EAKA;;;;EAGA"}}]
+}

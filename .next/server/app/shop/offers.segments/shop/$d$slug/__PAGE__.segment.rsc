@@ -1,0 +1,33 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/0zd5qjib7pb49.js"
+4:"/_next/static/chunks/1lt4dewzk020i.js"
+5:I[39756,["$3","$4"],"default"]
+6:I[37457,["$3","$4"],"default"]
+d:"/_next/static/chunks/184xffkqu_8pe.js"
+e:I[22016,["$3","$4","$d"],""]
+f:I[5014,["$3","$4","$d"],"default"]
+10:I[14050,["$3","$4","$d"],"ListingView"]
+11:I[97367,["$3","$4"],"OutletBoundary"]
+12:"$Sreact.suspense"
+15:"ViewportBoundary"
+16:I[97367,["$3","$4"],"$15"]
+17:"MetadataBoundary"
+18:I[97367,["$3","$4"],"$17"]
+19:I[27201,["$3","$4"],"IconMark"]
+:HL["/_next/static/chunks/17fg_7t07lgn4.css","style"]
+8:X
+8:C
+9:X
+c:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[[["$","div",null,{"className":"container","children":[["$","nav",null,{"aria-label":"مسیر صفحه","className":"_3e-AXW_nav","children":["$","ol",null,{"className":"_3e-AXW_list","children":[["$","li","خانه",{"className":"_3e-AXW_item","children":[["$","$Le",null,{"href":"/","className":"_3e-AXW_home","children":"خانه"}],["$","span",null,{"className":"_3e-AXW_sep","aria-hidden":true,"children":"/"}]]}],["$","li","فروشگاه",{"className":"_3e-AXW_item","children":[["$","$Le",null,{"href":"/shop","className":"_3e-AXW_link","children":"فروشگاه"}],["$","span",null,{"className":"_3e-AXW_sep","aria-hidden":true,"children":"/"}]]}],["$","li","پیشنهادهای ویژه",{"className":"_3e-AXW_item","children":[["$","span",null,{"aria-current":"page","className":"_3e-AXW_current","children":"پیشنهادهای ویژه"}],false]}]]}]}],["$","section",null,{"className":"N2vYpG_hero","aria-labelledby":"listing-title","children":[["$","div",null,{"className":"N2vYpG_copy","children":[["$","p",null,{"className":"N2vYpG_eyebrow","children":"SPECIAL OFFERS"}],["$","h1",null,{"id":"listing-title","className":"N2vYpG_title","children":"پیشنهادهای ویژه"}],["$","p",null,{"className":"N2vYpG_text","children":"تخفیف‌های فعلی فروشگاه. قیمت قبل و بعد از تخفیف کنار هم آمده تا تصمیم شما شفاف باشد."}],["$","ul",null,{"className":"U6xzpa_chips","children":[["$","li","ارسال روز بعد*",{"className":"U6xzpa_chip","children":[["$","$Lf",null,{"icon":{"name":"truck","size":24,"node":[["path",{"d":"M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2","key":"wrbu53"}],["path",{"d":"M15 18H9","key":"1lyqi6"}],["path",{"d":"M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14","key":"lysw3i"}],["circle",{"cx":"17","cy":"18","r":"2","key":"332jqn"}],["circle",{"cx":"7","cy":"18","r":"2","key":"19iecd"}]]},"size":15,"strokeWidth":1.9,"aria-hidden":true}],"ارسال روز بعد*"]}],["$","li","ضمانت اصالت",{"className":"U6xzpa_chip","children":[["$","$Lf",null,{"icon":{"name":"shield-check","size":24,"node":[["path",{"d":"M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z","key":"oel41y"}],["path",{"d":"m9 12 2 2 4-4","key":"dzmm74"}]]},"size":15,"strokeWidth":1.9,"aria-hidden":true}],"ضمانت اصالت"]}],["$","li","ضمانت بازگشت",{"className":"U6xzpa_chip","children":[["$","$Lf",null,{"icon":{"name":"rotate-ccw","size":24,"node":[["path",{"d":"M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8","key":"1357e3"}],["path",{"d":"M3 3v5h5","key":"1xhq8a"}]]},"size":15,"strokeWidth":1.9,"aria-hidden":true}],"ضمانت بازگشت"]}]]}]]}],["$","div",null,{"className":"N2vYpG_circle tone-coral","aria-hidden":true,"children":["$","svg",null,{"viewBox":"0 0 64 64","width":"42%","height":"42%","fill":"none","stroke":"currentColor","strokeWidth":2.4,"strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":true,"children":[["$","path","M10 24h44v9H10z",{"d":"M10 24h44v9H10z"}],["$","path","M14 33h36v21H14z",{"d":"M14 33h36v21H14z"}],["$","path","M32 24v30",{"d":"M32 24v30"}],["$","path","M32 24c-3-8-13-10-13-4 0 3 4 4 13 4",{"d":"M32 24c-3-8-13-10-13-4 0 3 4 4 13 4"}],["$","path","M32 24c3-8 13-10 13-4 0 3-4 4-13 4",{"d":"M32 24c3-8 13-10 13-4 0 3-4 4-13 4"}]]}]}]]}]]}],"$undefined",["$","div",null,{"className":"container","children":["$","$L10",null,{"slug":"offers"}]}],[["$","section","cta-0",{"className":"container section","aria-label":"تازه‌های WASTON را دیده‌اید؟","children":["$","div",null,{"className":"KjUMNq_banner KjUMNq_slim","children":[["$","div",null,{"children":[["$","h2",null,{"className":"KjUMNq_slimTitle","children":"تازه‌های WASTON را دیده‌اید؟"}],["$","p",null,{"className":"KjUMNq_slimText","children":"محصولاتی که به‌تازگی به فروشگاه اضافه شده‌اند."}]]}],["$","$Le",null,{"href":"/shop/new","className":"_8RiFmG_btn _8RiFmG_on-dark","children":["$undefined",["$","span",null,{"children":"مشاهده محصولات جدید"}]]}]]}]}]]],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/17fg_7t07lgn4.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/184xffkqu_8pe.js","async":true}]],["$","$L11",null,{"children":["$","$12",null,{"name":"Next.MetadataOutlet","children":"$@13"}]}]]}],"p":"$@14","v":null,"s":"$9"}}]]
+a:[["children",{"s":{"n":"slug","t":"d","k":"offers","s":[]},"h":65632,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+1:[["children",{"s":"shop","h":131136,"d":{"r":["$","$2","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":131088,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L16",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#ffffff","media":"(prefers-color-scheme: light)"}],["$","meta","3",{"name":"theme-color","content":"#101b2b","media":"(prefers-color-scheme: dark)"}]]}],["$","$L18",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$12",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"پیشنهادهای ویژه | WASTON"}],["$","meta","1",{"name":"description","content":"تخفیف‌های فعلی فروشگاه. قیمت قبل و بعد از تخفیف کنار هم آمده تا تصمیم شما شفاف باشد."}],["$","link","2",{"rel":"icon","href":"/favicon.svg"}],["$","$L19","3",{}]]}]}],null]}],null]}],"p":"$@1a","v":null,"s":"$9"}},"a":"$@1b","u":"$@1c","b":"Nw_UvgXoJDJGYDPYchdPT"}
+13:null
+1c:true
+9:300
+9:C
+1b:0
+b:"$undefined"
+7:"$undefined"
+1a:"$undefined"
+14:"$undefined"

@@ -1,0 +1,31 @@
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-control);
+  background: var(--surface);
+  height: var(--touch);
+}
+.btn {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 100%;
+  border: 0;
+  background: none;
+  color: var(--heading);
+  border-radius: var(--radius-control);
+}
+.btn:hover:not(:disabled) {
+  color: var(--secondary-ink);
+}
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.value {
+  min-width: 28px;
+  text-align: center;
+  font-weight: 700;
+  color: var(--heading);
+}

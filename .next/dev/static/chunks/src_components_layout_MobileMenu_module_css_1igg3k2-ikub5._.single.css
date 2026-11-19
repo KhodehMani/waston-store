@@ -1,0 +1,40 @@
+/* [project]/src/components/layout/MobileMenu.module.css [app-client] (css) */
+.MobileMenu-module__dvw3PW__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.MobileMenu-module__dvw3PW__link {
+  border-bottom: 1px solid var(--border);
+  min-height: 52px;
+  color: var(--heading);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  font-weight: 600;
+  display: flex;
+}
+
+.MobileMenu-module__dvw3PW__active {
+  color: var(--secondary-ink);
+  font-weight: 800;
+}
+
+.MobileMenu-module__dvw3PW__extra {
+  gap: 4px;
+  margin-top: 20px;
+  display: grid;
+}
+
+.MobileMenu-module__dvw3PW__extraLink {
+  min-height: 44px;
+  color: var(--text);
+  align-items: center;
+  gap: 10px;
+  padding: 0 8px;
+  font-size: 14px;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_layout_MobileMenu_module_css_1igg3k2-ikub5._.single.css.map*/

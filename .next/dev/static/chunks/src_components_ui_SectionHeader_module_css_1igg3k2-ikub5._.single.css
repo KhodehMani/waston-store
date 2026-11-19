@@ -1,0 +1,62 @@
+/* [project]/src/components/ui/SectionHeader.module.css [app-client] (css) */
+.SectionHeader-module__1WsNmG__head {
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.SectionHeader-module__1WsNmG__eyebrow {
+  color: var(--heading);
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.SectionHeader-module__1WsNmG__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.SectionHeader-module__1WsNmG__subtitle {
+  color: var(--muted);
+  margin-top: 4px;
+  font-size: 14px;
+}
+
+.SectionHeader-module__1WsNmG__link {
+  min-height: var(--touch);
+  color: var(--heading);
+  white-space: nowrap;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  display: inline-flex;
+}
+
+.SectionHeader-module__1WsNmG__link span {
+  border-bottom: 2px solid var(--secondary);
+  padding-bottom: 2px;
+}
+
+.SectionHeader-module__1WsNmG__link:hover span {
+  border-color: var(--heading);
+}
+
+@media (max-width: 640px) {
+  .SectionHeader-module__1WsNmG__title {
+    font-size: 21px;
+  }
+
+  .SectionHeader-module__1WsNmG__head {
+    margin-bottom: 16px;
+  }
+
+  .SectionHeader-module__1WsNmG__link {
+    font-size: 13px;
+  }
+}
+
+/*# sourceMappingURL=src_components_ui_SectionHeader_module_css_1igg3k2-ikub5._.single.css.map*/

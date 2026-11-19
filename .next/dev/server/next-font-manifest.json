@@ -1,0 +1,14 @@
+{
+  "app": {
+    "[project]/src/app/cart/page": [],
+    "[project]/src/app/checkout/page": [],
+    "[project]/src/app/magazine/[slug]/page": [],
+    "[project]/src/app/page": [],
+    "[project]/src/app/product/[slug]/page": [],
+    "[project]/src/app/search/page": [],
+    "[project]/src/app/shop/[slug]/page": []
+  },
+  "appUsingSizeAdjust": false,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}
